@@ -36,7 +36,7 @@ you may check dll with dependencies.exe (Dependency Walker)
 ## 1.3 Create your application
 create a source, e.g. main.cpp
 
-include the header of the lib, since BUILD_LIB is not defined, the header will import the functions this time
+include the header of the lib, since BUILD_LIB is not defined, the header will import the functions this time.
 
 compile and link against the dll
 `g++ -o main.exe main.cpp utils.dll`
